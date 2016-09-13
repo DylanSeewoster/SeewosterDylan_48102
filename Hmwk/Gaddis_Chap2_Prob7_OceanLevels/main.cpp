@@ -21,7 +21,7 @@ int main(int argc, char** argv) {
     
     //Declaration of variables with initialization
     float rate=1.5f; // sea level rise rate in mm/year
-    int nYear1=5,nYear2=7,nYear3=10; //years to calculate rise
+    char nYear1=5,nYear2=7,nYear3=10; //years to calculate rise
     float rise1,rise2,rise3;
     int nYrBch; //number of years for riverside to be beach front
     float elevRiv=860.0f; //riverside elevation in feet wikipedia
@@ -36,9 +36,9 @@ int main(int argc, char** argv) {
     
     //Display
     cout<<"The rate sea level rise = "<<rate<<"mm/year\n";
-    cout<<"After "<<nYear1<<" years the sea will rise "<<rise1<<" mm\n";
-    cout<<"After "<<nYear2<<" years the sea will rise "<<rise2<<" mm\n";
-    cout<<"After "<<nYear3<<" years the sea will rise "<<rise3<<" mm\n";
+    cout<<"After "<<static_cast<int>(nYear1)<<" years the sea will rise "<<rise1<<" mm\n";
+    cout<<"After "<<static_cast<int>(nYear2)<<" years the sea will rise "<<rise2<<" mm\n";
+    cout<<"After "<<static_cast<int>(nYear3)<<" years the sea will rise "<<rise3<<" mm\n";
     cout<<"At this rate, Riverside won't have beach front property for ";
     cout<<nYrBch<<" years\n";
     cout<<"This rise equates to "<<nYrBch*rate/CNVMMM<<" meters\n";

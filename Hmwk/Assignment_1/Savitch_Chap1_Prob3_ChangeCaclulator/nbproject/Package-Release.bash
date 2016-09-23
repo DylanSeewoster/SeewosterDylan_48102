@@ -13,9 +13,9 @@ CND_BUILDDIR=build
 CND_DLIB_EXT=dll
 NBTMPDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/tmp-packaging
 TMPDIRNAME=tmp-packaging
-OUTPUT_PATH=${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/savich_chap1_prob3_changecaclulator
-OUTPUT_BASENAME=savich_chap1_prob3_changecaclulator
-PACKAGE_TOP_DIR=savichchap1prob3changecaclulator/
+OUTPUT_PATH=${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/savitch_chap1_prob3_changecaclulator
+OUTPUT_BASENAME=savitch_chap1_prob3_changecaclulator
+PACKAGE_TOP_DIR=savitchchap1prob3changecaclulator/
 
 # Functions
 function checkReturnCode
@@ -60,15 +60,15 @@ mkdir -p ${NBTMPDIR}
 
 # Copy files and create directories and links
 cd "${TOP}"
-makeDirectory "${NBTMPDIR}/savichchap1prob3changecaclulator/bin"
+makeDirectory "${NBTMPDIR}/savitchchap1prob3changecaclulator/bin"
 copyFileToTmpDir "${OUTPUT_PATH}.exe" "${NBTMPDIR}/${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe" 0755
 
 
 # Generate tar file
 cd "${TOP}"
-rm -f ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/savichchap1prob3changecaclulator.tar
+rm -f ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/savitchchap1prob3changecaclulator.tar
 cd ${NBTMPDIR}
-tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/savichchap1prob3changecaclulator.tar *
+tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/savitchchap1prob3changecaclulator.tar *
 checkReturnCode
 
 # Cleanup

@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
-CND_ARTIFACT_NAME_Debug=savitch_chap1_prob3_changecaclulator
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/savitch_chap1_prob3_changecaclulator
+CND_ARTIFACT_NAME_Debug=gaddis_chap3_prob17_mathtutor
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/gaddis_chap3_prob17_mathtutor
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
-CND_PACKAGE_NAME_Debug=savitchchap1prob3changecaclulator.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/savitchchap1prob3changecaclulator.tar
+CND_PACKAGE_NAME_Debug=gaddischap3prob17mathtutor.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/gaddischap3prob17mathtutor.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
-CND_ARTIFACT_NAME_Release=savitch_chap1_prob3_changecaclulator
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/savitch_chap1_prob3_changecaclulator
+CND_ARTIFACT_NAME_Release=gaddis_chap3_prob17_mathtutor
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/gaddis_chap3_prob17_mathtutor
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
-CND_PACKAGE_NAME_Release=savitchchap1prob3changecaclulator.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/savitchchap1prob3changecaclulator.tar
+CND_PACKAGE_NAME_Release=gaddischap3prob17mathtutor.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/gaddischap3prob17mathtutor.tar
 #
 # include compiler specific variables
 #

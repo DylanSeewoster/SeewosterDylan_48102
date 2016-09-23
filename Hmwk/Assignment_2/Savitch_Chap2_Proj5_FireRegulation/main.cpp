@@ -46,7 +46,7 @@ int main(int argc, char** argv) {
    
     //display information
     if (roomCap >= nPeeps)
-        cout<<"You can still legal allow "<<vacant<<" people\n";
+        cout<<"You can still legally allow "<<vacant<<" people\n";
     else
         cout<<"You have too many people, exclude "<<excess<<" person(s) to be legal.\n";
     //return from the function

@@ -39,16 +39,23 @@ int main(int argc, char** argv) {
     dif=roomCap-nPeeps;
     
     if (dif >= 0)
+    {
         vacant=dif;
-    else           
+    }    
+    else
+    {    
         excess=dif*-1;
-    
+    }
    
     //display information
     if (roomCap >= nPeeps)
+    {    
         cout<<"You can still legally allow "<<vacant<<" people\n";
+    }    
     else
+    {    
         cout<<"You have too many people, exclude "<<excess<<" person(s) to be legal.\n";
+    }    
     //return from the function
     return 0;
 }

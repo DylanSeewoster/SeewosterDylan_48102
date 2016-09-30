@@ -20,13 +20,13 @@ const float PERCENT=100.0f;
 //Execution begin here.
 int main(int argc, char** argv) {
     //declare variables
-    float perHour=16.78f;                                     //wages per hour
+    float perHour=16.78f;                                     //wages per hour (dollars)
     float hours,overTiH,overTiW,income,grossI,netInc,netIncD; //hours worked, Overtime hours and wage, income without overtime, gross income, net income, net with dependants
     float socSecT=0.06f;                                      //social security tax
     float fedTax=0.14f;                                       //Federal income tax
     float stateT=0.05f;                                       //state income tax
     float uniDue=10.0f;                                       //union dues
-    int inDep;                                                //input number of dependants
+    unsigned short inDep;                                     //input number of dependants
     float depWith=35.0f;                                      //amount withheld if you have 3 or more dependants
 
     //initialize or input values
@@ -56,16 +56,17 @@ int main(int argc, char** argv) {
     {
         netInc=grossI-((grossI*socSecT)+(grossI*fedTax)+(grossI*stateT))-uniDue;  
     }
+    
     //display information
-    cout<<setprecision(2)<<fixed<<showpoint;
+    cout<<setprecision(2)<<fixed<<showpoint;                                                    //setprecision to 2 places after decimal
     cout<<"Total gross income:                        $"<<setw(7)<<grossI<<endl;
     cout<<"Social Security Tax:                       %"<<setw(7)<<socSecT*PERCENT<<endl;
     cout<<"Federal Income Tax:                        %"<<setw(7)<<fedTax*PERCENT<<endl;       
     cout<<"State Income Tax:                          %"<<setw(7)<<stateT*PERCENT<<endl;
     cout<<"Union Due:                                 $"<<setw(7)<<uniDue<<endl;
-    if (inDep >= 3)
+    if (inDep >= 3)                                                                            //if 3 or more dependants
     {    
-    cout<<"Health insurance for 3 or more dependants: $"<<setw(7)<<depWith<<endl;
+        cout<<"Health insurance for 3 or more dependants: $"<<setw(7)<<depWith<<endl;
     }            
     cout<<"__________________________________________________________\n";
     cout<<"Total net income:                          $"<<setw(7)<<netInc<<endl;

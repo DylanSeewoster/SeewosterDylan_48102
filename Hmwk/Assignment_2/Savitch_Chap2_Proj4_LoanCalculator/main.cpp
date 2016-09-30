@@ -23,7 +23,7 @@ int main(int argc, char** argv) {
     float amNeed;       //amount needed
     float faceVal;      //face value
     float inter;        //interest
-    float dur;            //duration on loan in months
+    float dur;          //duration on loan in months
     float modInt;       //converted interest
     float minPay;       //minimum payment per month
     float convY;        //convert to year

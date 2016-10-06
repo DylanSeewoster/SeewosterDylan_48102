@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
-CND_ARTIFACT_NAME_Debug=gaddis_chap4_prob10_daysofthemonth
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/gaddis_chap4_prob10_daysofthemonth
+CND_ARTIFACT_NAME_Debug=gaddis_chap4_prob8_colormixer
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/gaddis_chap4_prob8_colormixer
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
-CND_PACKAGE_NAME_Debug=gaddischap4prob10daysofthemonth.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/gaddischap4prob10daysofthemonth.tar
+CND_PACKAGE_NAME_Debug=gaddischap4prob8colormixer.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/gaddischap4prob8colormixer.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
-CND_ARTIFACT_NAME_Release=gaddis_chap4_prob10_daysofthemonth
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/gaddis_chap4_prob10_daysofthemonth
+CND_ARTIFACT_NAME_Release=gaddis_chap4_prob8_colormixer
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/gaddis_chap4_prob8_colormixer
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
-CND_PACKAGE_NAME_Release=gaddischap4prob10daysofthemonth.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/gaddischap4prob10daysofthemonth.tar
+CND_PACKAGE_NAME_Release=gaddischap4prob8colormixer.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/gaddischap4prob8colormixer.tar
 #
 # include compiler specific variables
 #
